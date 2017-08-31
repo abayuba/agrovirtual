@@ -1,0 +1,28 @@
+	<ion-view view-title="User Login" hide-nav-bar="true" >
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-user_login" class="page-user_login">
+		<div class="hero no-header flat">
+  <br />
+  <p>Publicaciones gratuitas y la compraventa de ganado con la comisión más baja (2%).</p>
+    <div class="content">
+        <div class="app-icon" style="background: url('data/images/images/logo.png') center;"></div>
+        <h2>Agrovirtual</h2>
+    </div>
+</div>
+
+<div class="list">
+    <ion-md-input placeholder="Nombre Usuario" highlight-color="balanced" type="text" ng-model="login_data.username"></ion-md-input>
+    <ion-md-input placeholder="Contraseña" highlight-color="energized" type="password" ng-model="login_data.password"></ion-md-input>
+</div>
+
+<div class="padding">
+    <button ng-click="submitLogin()" class="button button-full button-assertive ink">Login</button>
+    <a ui-sref="agrovirtual.user_register" class="button button-full button-calm ink">Registrarse</a>
+  <a run-app-browser href="http://www.agro.aplicacionesmoviles.uy/recuperar-contrasena/" class="button button-full button-calm ink">¿Olvido contraseña?</a> 
+</div>
+
+
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

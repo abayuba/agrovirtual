@@ -1,0 +1,39 @@
+	<ion-view view-title="Info-Salir" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-user_profile" class="page-user_profile">
+		<div class="list">
+
+
+<div class="list card">
+    
+    <div class="item item-divider">
+        Información de Registro
+    </div>
+    
+    <label class="item item-input item-stacked-label">
+        <span class="input-label">Nombre o Apellido</span>
+        <input type="text" ng-value="current_user.displayname" />
+    </label>
+
+    
+    <label class="item item-input item-stacked-label">
+        <span class="input-label">Fecha Registro</span>
+        <input type="text" ng-value="current_user.registered" />
+    </label>
+    
+        
+
+    
+    <div class="item">
+        <button class="button button-small button-assertive" ng-click="logOut()">Salir del Login</button>
+    </div>
+    
+</div>
+
+
+ 
+
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>

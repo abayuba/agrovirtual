@@ -1,0 +1,26 @@
+	<ion-view view-title="User Register" hide-nav-bar="true" >
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-user_register" class="page-user_register">
+		<div class="hero no-header flat">
+    <div class="content">
+        <div class="app-icon" style="background: url('data/images/header/logo.png') center;"></div>
+        <h2>Agrovirtual</h2>
+    </div>
+</div>
+
+<div class="list">
+    <ion-md-input placeholder="Nombre de Usuario" highlight-color="assertive" type="text" ng-model="user_data.username"></ion-md-input>
+    <ion-md-input placeholder="Email" highlight-color="assertive" type="text" ng-model="user_data.email"></ion-md-input>
+    <ion-md-input placeholder="Contraseña" highlight-color="assertive" type="password" ng-model="user_data.user_pass"></ion-md-input>
+    <ion-md-input placeholder="Nombre o Apellido" highlight-color="energized" type="text" ng-model="user_data.display_name"></ion-md-input>
+</div>
+
+<div class="padding">
+    <button ng-click="submitRegister()" class="button button-full button-assertive ink">Registrarme</button>
+    <a ui-sref="agrovirtual.user_login" class="button button-full button-calm ink">Acceder</a>
+</div>
+
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
