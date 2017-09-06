@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="uy.aplicacionesmoviles.agrovirtual" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="uy.aplicacionesmoviles.agrovirtual" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 	<name>Agrovirtual</name>
 	<description>Agrovirtual</description>
 	<author email="abayuba1@gmail.com" href="http://aplicacionesmoviles.uy">Eduardo Abayuba Rodriguez</author>
